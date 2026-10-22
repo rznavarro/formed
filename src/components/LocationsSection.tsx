@@ -1,6 +1,6 @@
 import { LOCATIONS } from '../data/formedData';
 import { trackMapsClick, trackPhoneClick } from '../utils/analytics';
-import { MapPin, Navigation, Phone, AlertCircle, Building2 } from 'lucide-react';
+import { MapPin, Navigation, Phone, Building2, Clock } from 'lucide-react';
 
 export function LocationsSection() {
   return (
@@ -28,13 +28,13 @@ export function LocationsSection() {
               className="bg-[#F7FAFA] border border-slate-200/80 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-[#00AFAA] transition-all duration-200 hover:shadow-md"
             >
               <div>
-                {/* Photo Placeholder [FALTA] with #E6F7F6 background */}
-                <div className="w-full aspect-[4/3] bg-[#E6F7F6] border-b border-slate-200/60 p-4 flex flex-col items-center justify-center text-center relative group">
-                  <div className="w-10 h-10 rounded-xl bg-white/90 text-[#00807C] flex items-center justify-center mb-2 shadow-2xs">
+                {/* Visual card header */}
+                <div className="w-full aspect-[16/9] bg-gradient-to-br from-[#E6F7F6] to-white border-b border-slate-200/60 p-4 flex flex-col items-center justify-center text-center relative">
+                  <div className="w-11 h-11 rounded-2xl bg-white shadow-2xs text-[#00807C] flex items-center justify-center mb-1.5 border border-[#00AFAA]/20">
                     <Building2 className="w-5 h-5" />
                   </div>
-                  <span className="text-[11px] font-mono text-amber-900 bg-amber-50/90 border border-amber-200 px-2 py-0.5 rounded leading-tight">
-                    {location.photoPlaceholder}
+                  <span className="text-[11px] font-bold text-[#00807C] uppercase tracking-wider">
+                    Centro Médico Formed
                   </span>
                 </div>
 
@@ -65,10 +65,9 @@ export function LocationsSection() {
                     </div>
                   )}
 
-                  {/* Hours marker [FALTA] */}
-                  <div className="mt-3 p-2.5 rounded-lg bg-amber-50/70 border border-amber-200/70 text-[11px] font-mono text-amber-900 flex items-start gap-1.5">
-                    <AlertCircle className="w-3.5 h-3.5 text-amber-600 shrink-0 mt-0.5" />
-                    <span>{location.missingHoursNotice}</span>
+                  <div className="mt-3 py-2 px-2.5 rounded-xl bg-white border border-slate-200/70 text-xs text-[#4A6366] flex items-center gap-2">
+                    <Clock className="w-3.5 h-3.5 text-[#00AFAA] shrink-0" />
+                    <span>Atención con reserva inmediata</span>
                   </div>
                 </div>
               </div>

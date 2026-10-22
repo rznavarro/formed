@@ -17,7 +17,6 @@ import { FaqSection } from './components/FaqSection';
 import { FinalCtaSection } from './components/FinalCtaSection';
 import { Footer } from './components/Footer';
 import { FloatingMobileBar } from './components/FloatingMobileBar';
-import { MissingItemsAudit } from './components/MissingItemsAudit';
 
 export default function App() {
   return (
@@ -60,9 +59,6 @@ export default function App() {
         {/* 4.11 CTA Final (#00AFAA background) */}
         <FinalCtaSection />
       </main>
-
-      {/* Client Missing Items Audit */}
-      <MissingItemsAudit />
 
       {/* 4.12 Footer */}
       <Footer />

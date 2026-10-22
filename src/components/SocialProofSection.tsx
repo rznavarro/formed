@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { PATIENT_REVIEWS } from '../data/formedData';
 import { WhatsAppButton } from './common/WhatsAppButton';
-import { Star, AlertCircle } from 'lucide-react';
+import { Star } from 'lucide-react';
 
 function AnimatedCounter({ endValue, prefix = "", suffix = "" }: { endValue: number; prefix?: string; suffix?: string }) {
   const [count, setCount] = useState(0);
@@ -93,15 +93,13 @@ export function SocialProofSection() {
             </div>
           </div>
 
-          {/* Missing confirmed count badge */}
-          <div className="bg-amber-50/70 border border-amber-200/80 rounded-2xl p-4 text-center flex flex-col justify-center items-center">
-            <div className="flex items-center gap-1 text-amber-700 font-mono text-xs font-semibold mb-1">
-              <AlertCircle className="w-3.5 h-3.5" />
-              <span>Pendiente de confirmar</span>
+          <div className="bg-[#F7FAFA] border border-slate-200/80 rounded-2xl p-5 text-center">
+            <div className="font-mono tabular-nums text-3xl sm:text-4xl font-extrabold text-[#00807C]">
+              2022
             </div>
-            <p className="text-[11px] font-mono text-amber-900 leading-tight">
-              [FALTA: confirmar cifra — el sitio muestra &quot;+90.000&quot; en la portada y &quot;+206.000&quot; en telemedicina]
-            </p>
+            <div className="text-xs sm:text-sm font-semibold text-[#0F2A2E] mt-1.5">
+              Cuidando tu salud
+            </div>
           </div>
         </div>
 

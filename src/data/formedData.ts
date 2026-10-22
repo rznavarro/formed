@@ -128,8 +128,6 @@ export const LOCATIONS: LocationItem[] = [
     city: 'Providencia',
     region: 'Región Metropolitana',
     mapUrl: 'https://maps.app.goo.gl/NfAoVD1fo5NAML9N6',
-    missingHoursNotice: '[FALTA: horario de atención sede Providencia y respuesta WhatsApp]',
-    photoPlaceholder: '[FALTA: Foto real de fachada o recepción - Sede Providencia]',
   },
   {
     id: 'providencia-oteiza',
@@ -139,8 +137,6 @@ export const LOCATIONS: LocationItem[] = [
     city: 'Providencia',
     region: 'Región Metropolitana',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Centro+M%C3%A9dico+Formed&query_place_id=ChIJ-feZ6tXPYpYRi1J_cx8xmXo',
-    missingHoursNotice: '[FALTA: horario de atención sede Oteiza]',
-    photoPlaceholder: '[FALTA: Foto real de fachada o recepción - Sede Oteiza]',
   },
   {
     id: 'santiago-bulnes',
@@ -150,8 +146,6 @@ export const LOCATIONS: LocationItem[] = [
     city: 'Santiago Centro',
     region: 'Región Metropolitana',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Centro+M%C3%A9dico+Formed&query_place_id=ChIJtXdwPVrFYpYRGITTSe_l8uk',
-    missingHoursNotice: '[FALTA: horario de atención sede Bulnes]',
-    photoPlaceholder: '[FALTA: Foto real de fachada o recepción - Sede Bulnes]',
   },
   {
     id: 'concepcion-rengo',
@@ -162,8 +156,6 @@ export const LOCATIONS: LocationItem[] = [
     region: 'Región del Biobío',
     phone: '+56 9 9920 8368',
     mapUrl: 'https://maps.app.goo.gl/sDj1NY7yBk96f42TA',
-    missingHoursNotice: '[FALTA: horario de atención sede Concepción]',
-    photoPlaceholder: '[FALTA: Foto real de fachada o recepción - Sede Concepción]',
   },
 ];
 

@@ -91,16 +91,17 @@ export function Hero() {
                     fetchPriority="high"
                   />
                   
-                  {/* Subtle brand overlay with client missing image indicator */}
-                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#0F2A2E]/80 via-[#0F2A2E]/30 to-transparent p-4 sm:p-5 flex flex-col justify-end text-white">
+                  {/* Subtle brand overlay */}
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#0F2A2E]/85 via-[#0F2A2E]/40 to-transparent p-4 sm:p-5 flex flex-col justify-end text-white">
                     <span className="text-xs uppercase font-semibold tracking-wider text-[#E6F7F6] mb-1">
                       Atención ambulatoria de excelencia
                     </span>
                     <p className="text-sm font-medium text-white/95 leading-snug">
                       Boxes clínicos modernos y calidez profesional
                     </p>
-                    <div className="mt-2 inline-flex items-center gap-1.5 px-2.5 py-1 bg-amber-500/90 text-white rounded-md text-[11px] font-mono font-medium w-fit">
-                      <span>[FALTA: Foto real de una consulta/box de atención]</span>
+                    <div className="mt-2 inline-flex items-center gap-1.5 px-2.5 py-1 bg-white/20 backdrop-blur-sm text-white rounded-md text-[11px] font-medium w-fit">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#00AFAA]"></span>
+                      <span>Atención en Providencia, Santiago Centro y Concepción</span>
                     </div>
                   </div>
                 </div>

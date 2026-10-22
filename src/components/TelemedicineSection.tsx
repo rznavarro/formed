@@ -61,14 +61,14 @@ export function TelemedicineSection() {
               </div>
             </div>
 
-            {/* Missing image placeholder for telemedicina */}
-            <div className="p-4 bg-white/70 border border-dashed border-[#00AFAA]/40 rounded-2xl">
-              <span className="text-[11px] font-semibold text-amber-900 block mb-1">
-                [FALTA: 1 foto de una sesión de telemedicina o profesional en videollamada]
-              </span>
-              <p className="text-xs text-[#4A6366]">
-                Espacio reservado para fotografía de telemedicina real con profesional de Formed.
-              </p>
+            <div className="p-4 sm:p-5 bg-white rounded-2xl shadow-xs border border-[#00AFAA]/20 flex items-center gap-3.5">
+              <div className="w-10 h-10 rounded-xl bg-[#E6F7F6] text-[#00807C] flex items-center justify-center shrink-0">
+                <Video className="w-5 h-5" aria-hidden="true" />
+              </div>
+              <div className="text-xs text-[#4A6366]">
+                <strong className="text-[#0F2A2E] block font-semibold mb-0.5">Plataforma clínica encriptada y segura</strong>
+                Conexión directa vía videollamada con emisión instantánea de órdenes y recetas médicas a tu correo.
+              </div>
             </div>
           </div>
 

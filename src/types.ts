@@ -17,8 +17,6 @@ export interface LocationItem {
   region: string;
   mapUrl: string;
   phone?: string;
-  missingHoursNotice: string;
-  photoPlaceholder: string;
 }
 
 export interface ReviewItem {
