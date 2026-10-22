@@ -1,0 +1,6 @@
+{
+  "name": "Centro Médico Formed",
+  "description": "Landing page de conversión mobile-first para Centro Médico Formed. Especialistas con copago Fonasa en Providencia, Santiago Centro, Concepción y telemedicina.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
